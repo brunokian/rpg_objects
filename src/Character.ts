@@ -92,3 +92,6 @@ export default class Character implements Fighter {
     this._lifePoints = this._maxLifePoints;
   }
 }
+
+const test = new Character('marcos');
+console.log(test.energy);
